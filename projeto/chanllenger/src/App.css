@@ -36,3 +36,89 @@
     transform: rotate(360deg);
   }
 }
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.step-info {
+  margin-top: 50px;
+  margin-left: 74px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  text-align: right;
+  transform: translate(-50%, -50%);
+  padding: 0px;
+  border-radius: 5px;
+}
+
+
+.step-number {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 5px;
+  position: relative;
+  top: 3px;
+  right: 11px;
+
+}
+.ball{
+  width: 33px;
+    border-radius: 100%;
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+.ball-off{
+    width: 33px;
+    border-radius: 100%;
+    background-color: white;
+    border-color: white;
+}
+
+.step-name {
+  font-size: 16px;
+  position: relative;
+  bottom: 14px;
+  font-weight: 300;
+  left: 10px;
+  color: white;
+}
+.step-subname {
+  font-size: 16px;
+  position: relative;
+  top: 5px;
+  right: 35px;
+  font-weight: 600;
+  color: white;
+}
+
+.step-items {
+  margin-top: 0px;
+  list-style-type: disc;
+  padding-left: 39px;
+  padding-top: 34px;
+}
+.title{
+  font-size: 32px;
+  font-weight: bold;
+  color: #002060 !important;
+}
+.sub-title{
+  font-weight: 400;
+  color: rgb(136, 136, 136)
+}
+.text-label{
+  color: #002060 !important;
+}
+.button-next{
+  margin-top: 100px;
+  background-color: #002060;
+  float: right;
+}
+.button-back{
+  margin-top: 100px;
+  background-color: white;
+  color: #002060;
+  float: left;
+}
