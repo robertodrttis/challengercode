@@ -87,7 +87,6 @@ const StepComponent = () => {
                         </div>
 
                         <div className="out-box p-2 mr-10 " >
-                            {/* Formulário na coluna direita */}
                             <div className="text-left -ml-4 md:ml-0">
                                 <form className="w-full mt-10 box-form">
                                     <h1 className="title">Person Info</h1>
@@ -290,8 +289,6 @@ const StepComponent = () => {
                                         </button>
                                     )}
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
@@ -381,8 +378,6 @@ const StepComponent = () => {
                                         </button>
                                     )}
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
@@ -393,7 +388,6 @@ const StepComponent = () => {
                             <div className="p-3 image-container">
                                 <div className="p-3 relative">
                                     <img src="/assets/images/bg-sidebar-desktop.svg" alt="Descrição da imagem" className="max-w-full" />
-
                                     <div className="step-info-top absolute top-0 left-0">
                                         <ul className="step-items">
                                             <li className='step-info'>
@@ -427,25 +421,20 @@ const StepComponent = () => {
                                         </ul>
                                     </div>
                                 </div>
-
                             </div>
                             <div className="p-2 mr-10">
                                 {/* Formulário na coluna direita */}
                                 <div className="text-left margin-left: -40px;">
                                     <div className='container-thank'>
-                                    <img src="/assets/images/icon-thank-you.svg" alt="Descrição da imagem" className="thank-img max-w-full" />
-                                    <h1 className='title-thank'>Thank You!</h1>
-                                    <label className='sub-thank'>Neque porro quisquam est qui dolorem Neque porro quisquam est qui dolorem Neque porro quisquam est qui dolorem.</label>
+                                        <img src="/assets/images/icon-thank-you.svg" alt="Descrição da imagem" className="thank-img max-w-full" />
+                                        <h1 className='title-thank'>Thank You!</h1>
+                                        <label className='sub-thank'>Neque porro quisquam est qui dolorem Neque porro quisquam est qui dolorem Neque porro quisquam est qui dolorem.</label>
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
                 )}
-
-
             </div>
         </div >
     );

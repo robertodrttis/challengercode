@@ -521,24 +521,25 @@
     background-color: white;
     width: 309px;
     height: 446px;
-}
-.title-plan {
-  top: 0px;
-  position: relative;
-  right: -25px;
-  width: 297px;
-  font-size: 32px;
-  font-weight: bold;
-  color: #002060 !important;
-}
+  }
 
-.sub-titleplan {
-  position: relative;
-  top: 0px;
-  right: -23px;
-  font-weight: 400;
-  color: rgb(136, 136, 136);
-}
+  .title-plan {
+    top: 0px;
+    position: relative;
+    right: -25px;
+    width: 297px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #002060 !important;
+  }
+
+  .sub-titleplan {
+    position: relative;
+    top: 0px;
+    right: -23px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
 
   .plan-image {
     position: relative;
@@ -570,7 +571,7 @@
     position: relative;
     top: 8px;
     left: 126px;
-}
+  }
 
   .button-next-plan {
     margin-top: 100px;
@@ -612,7 +613,7 @@
     margin: 6px 91px;
     padding: 0px 40px;
     height: auto;
-}
+  }
 
   .sub-pick {
     position: relative;
@@ -645,15 +646,16 @@
     height: 400px;
     left: 47px;
     background-color: white;
-}
-.container-finish{
-  position: relative;
-  top: -473px;
-  width: 280px;
-  height: 400px;
-  left: 47px;
-  background-color: white;
-}
+  }
+
+  .container-finish {
+    position: relative;
+    top: -473px;
+    width: 280px;
+    height: 400px;
+    left: 47px;
+    background-color: white;
+  }
 
   .title-planpick {
     top: 13px;
@@ -671,6 +673,7 @@
     font-weight: 400;
     color: rgb(136, 136, 136);
   }
+
   .button-back-pick {
     position: relative;
     top: -500px;
@@ -679,95 +682,105 @@
     background-color: white;
     color: #002060;
     float: left;
-}
-.button-next-pick {
-  margin-top: 100px;
-  background-color: #002060;
-  float: right;
-  position: relative;
-  top: -641px;
-  right: -195px;
-}
-.box-price {
-  display: flex;
-  position: relative;
-  flex-direction: row-reverse;
-  bottom: 49px;
-  left: 15px;
-}
-.box {
-  padding: 35px 20px;
-  margin-bottom: 15px;
-  width: 278px;
-  right: -16px;
-  top: 72px;
-  height: 50px;
-  background-color: white;
-  border-radius: 5px;
-  border-width: 1px;
-  border-color: #002060;
-}
-.check {
-  position: absolute;
-  top: 24px;
-  width: 18px;
-  z-index: 1000;
-  height: 18px;
-}
-.title-finish {
-  top: 12px;
-  position: relative;
-  right: -9px;
-  font-size: 32px;
-  font-weight: bold;
-  color: #002060 !important;
-}
-.sub-titlefinish {
-  position: relative;
-  top: 11px;
-  right: -10px;
-  font-weight: 400;
-  color: rgb(136, 136, 136);
-}
-.box-finish {
-  position: relative;
-  top: 30px;
-  right: 2px;
-  background-color: rgb(227, 255, 246);
-  border-radius: 5px;
-  border-width: 5px;
-  border: solid;
-  border-color: rgb(227, 255, 246);
-}
-.container-thank{
-  position: relative;
-  top: -473px;
-  width: 280px;
-  height: 400px;
-  left: 47px;
-  background-color: white;
-}
-.title-thank {
-  top: -435px;
-  position: relative;
-  left: 50px;
-  font-size: 32px;
-  font-weight: bold;
-  color: #002060 !important;
-}
+  }
 
-.sub-thank {
-  text-align: center;
-  position: relative;
-  top: -435px;
-  right: -23px;
-  font-weight: 400;
-  color: rgb(136, 136, 136);
-}
-.thank-img {
-  top: -187px;
-  position: relative;
-  left: 103px;
-  width: 64px !important;
-}
+  .button-next-pick {
+    margin-top: 100px;
+    background-color: #002060;
+    float: right;
+    position: relative;
+    top: -641px;
+    right: -195px;
+  }
+
+  .box-price {
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    bottom: 49px;
+    left: 15px;
+  }
+
+  .box {
+    padding: 35px 20px;
+    margin-bottom: 15px;
+    width: 278px;
+    right: -16px;
+    top: 72px;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #002060;
+  }
+
+  .check {
+    position: absolute;
+    top: 24px;
+    width: 18px;
+    z-index: 1000;
+    height: 18px;
+  }
+
+  .title-finish {
+    top: 12px;
+    position: relative;
+    right: -9px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #002060 !important;
+  }
+
+  .sub-titlefinish {
+    position: relative;
+    top: 11px;
+    right: -10px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
+
+  .box-finish {
+    position: relative;
+    top: 30px;
+    right: 2px;
+    background-color: rgb(227, 255, 246);
+    border-radius: 5px;
+    border-width: 5px;
+    border: solid;
+    border-color: rgb(227, 255, 246);
+  }
+
+  .container-thank {
+    position: relative;
+    top: -473px;
+    width: 280px;
+    height: 400px;
+    left: 47px;
+    background-color: white;
+  }
+
+  .title-thank {
+    top: -435px;
+    position: relative;
+    left: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #002060 !important;
+  }
+
+  .sub-thank {
+    text-align: center;
+    position: relative;
+    top: -435px;
+    right: -23px;
+    font-weight: 400;
+    color: rgb(136, 136, 136);
+  }
+
+  .thank-img {
+    top: -187px;
+    position: relative;
+    left: 103px;
+    width: 64px !important;
+  }
 }

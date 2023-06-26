@@ -39,37 +39,37 @@ function BoxSelection() {
   return (
     <div>
       <div className='container-pick'>
-      <h1 className='title-planpick'>Pick Add-ons</h1>
-      <label className='sub-titlepick'>Neque porro quisquam est qui dolorem ipsum quia</label>
-      <div className="box-container">
+        <h1 className='title-planpick'>Pick Add-ons</h1>
+        <label className='sub-titlepick'>Neque porro quisquam est qui dolorem ipsum quia</label>
+        <div className="box-container">
 
-        <Box
-          title="Customizable Profile"
-          option1="Custom theme on your profile"
-          price="+$1.99/mo"
-          isSelected={selectedBox === 'box1'}
-          onSelect={() => handleBoxSelect('box1')}
-        />
-        <Box
-          title="Customizable Profile"
-          option1="Custom theme on your profile"
-          price="+$2.99/mo"
-          isSelected={selectedBox === 'box2'}
-          onSelect={() => handleBoxSelect('box2')}
-        />
-        <Box
-          title="Customizable Profile"
-          option1="Custom theme on your profile"
-          price="+$3.99/mo"
-          isSelected={selectedBox === 'box3'}
-          onSelect={() => handleBoxSelect('box3')}
-        />
+          <Box
+            title="Customizable Profile"
+            option1="Custom theme on your profile"
+            price="+$1.99/mo"
+            isSelected={selectedBox === 'box1'}
+            onSelect={() => handleBoxSelect('box1')}
+          />
+          <Box
+            title="Customizable Profile"
+            option1="Custom theme on your profile"
+            price="+$2.99/mo"
+            isSelected={selectedBox === 'box2'}
+            onSelect={() => handleBoxSelect('box2')}
+          />
+          <Box
+            title="Customizable Profile"
+            option1="Custom theme on your profile"
+            price="+$3.99/mo"
+            isSelected={selectedBox === 'box3'}
+            onSelect={() => handleBoxSelect('box3')}
+          />
+        </div>
+
       </div>
 
     </div>
 
-      </div>
-   
   );
 }
 

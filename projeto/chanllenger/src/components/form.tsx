@@ -15,7 +15,6 @@ const FormComponent = () => {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    // Lógica para enviar os dados do formulário
     console.log(formValues);
   };
 
