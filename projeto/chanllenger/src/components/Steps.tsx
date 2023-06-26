@@ -423,12 +423,11 @@ const StepComponent = () => {
                                 </div>
                             </div>
                             <div className="p-2 mr-10">
-                                {/* Formulário na coluna direita */}
-                                <div className="text-left margin-left: -40px;">
+                                <div className="text-left">
                                     <div className='container-thank'>
                                         <img src="/assets/images/icon-thank-you.svg" alt="Descrição da imagem" className="thank-img max-w-full" />
                                         <h1 className='title-thank'>Thank You!</h1>
-                                        <label className='sub-thank'>Neque porro quisquam est qui dolorem Neque porro quisquam est qui dolorem Neque porro quisquam est qui dolorem.</label>
+                                        <p className='sub-thank'>Neque porro quisquam est qui dolorem Neque porro quisquam est qui dolorem Neque porro quisquam est qui dolorem.</p>
                                     </div>
                                 </div>
                             </div>
